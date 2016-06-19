@@ -1,0 +1,313 @@
+.schalter {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            z-index: 1;
+            background-size: 100%;
+            background-position : 0% 0%;
+            background-repeat : no-repeat ;
+}
+
+
+
+/****************************************/
+/* SCHLAFZIMMER */
+
+
+.schlafzimmerBG {
+  background-image: url(../img/schlafzimmer.png);
+  background-size: 80%;
+  background-origin: content;
+  background-position : center center;
+  background-repeat : no-repeat ;
+}
+
+
+.schlafzimmerEin{
+            background-image: url(../img/button_bulb_on.png);
+            top: 50%;
+            left: 50%;
+}
+.schlafzimmerAus {
+            background-image: url(../img/button_bulb_off.png);
+            top: 50%;
+            left: 50%;
+            margin-left: 40px
+}
+
+.schlafzimmerRauf {
+            background-image: url(../img/button_up.png);
+            top: 10%;
+            left: 40%;
+}
+.schlafzimmerRunter {
+            background-image: url(../img/button_down.png);
+            top: 10%;
+            left: 40%;
+            margin-left: 40px
+}
+
+
+/****************************************/
+/* WOHNBEREICH*/
+
+.wohnbereichBG {
+  background-image: url(../img/wohnbereich.png);
+  background-size: 90%;
+  background-origin: content;
+  background-position : center center;
+  background-repeat : no-repeat ;
+}
+
+.essenEin{
+            background-image: url(../img/button_bulb_on.png);
+            top: 30%;
+            left: 50%;
+}
+.essenAus {
+            background-image: url(../img/button_bulb_off.png);
+            top: 30%;
+            left: 50%;
+            margin-left: 40px
+}
+.wohnenEin{
+            background-image: url(../img/button_bulb_on.png);
+            top: 30%;
+            left: 25%;
+}
+.wohnenAus {
+            background-image: url(../img/button_bulb_off.png);
+            top: 30%;
+            left: 25%;
+            margin-left: 40px
+}
+.tvEin{
+            background-image: url(../img/button_bulb_on.png);
+            top: 2%;
+            left: 10%;
+}
+.tvAus {
+            background-image: url(../img/button_bulb_off.png);
+            top: 2%;
+            left: 10%;
+            margin-left: 40px
+}
+.kuecheRauf {
+            background-image: url(../img/button_up.png);
+            top: 60%;
+            left: 75%;
+}
+.kuecheRunter {
+            background-image: url(../img/button_down.png);
+            top: 60%;
+            left: 75%;
+            margin-left: 40px
+}
+.ausgangRauf {
+            background-image: url(../img/button_up.png);
+            top: 60%;
+            left: 55%;
+}
+.ausgangRunter {
+            background-image: url(../img/button_down.png);
+            top: 60%;
+            left: 55%;
+            margin-left: 40px
+}
+.essenRauf {
+            background-image: url(../img/button_up.png);
+            top: 60%;
+            left: 35%;
+}
+.essenRunter {
+            background-image: url(../img/button_down.png);
+            top: 60%;
+            left: 35%;
+            margin-left: 40px
+}
+.arbeitRauf {
+            background-image: url(../img/button_up.png);
+            top: 70%;
+            left: 20%;
+}
+.arbeitRunter {
+            background-image: url(../img/button_down.png);
+            top: 70%;
+            left: 20%;
+            margin-left: 40px
+}
+
+.w_sonnensegelEinfahren {
+            background-image: url(../img/button_up.png);
+            top: 80%;
+            left: 55%;
+}
+.w_sonnensegelAusfahren {
+            background-image: url(../img/button_down.png);
+            top: 80%;
+            left: 55%;
+            margin-left: 40px
+}
+
+
+/****************************************/
+/* GARTEN */
+
+
+.gartenBG {
+  background-image: url(../img/garten2.png);
+  background-size: 90%;
+  background-origin: content;
+  background-position : center center;
+  background-repeat : no-repeat ;
+}
+
+.g_sonnensegelEinfahren {
+            background-image: url(../img/button_up.png);
+            top: 30%;
+            left: 60%;
+}
+.g_sonnensegelAusfahren {
+            background-image: url(../img/button_down.png);
+            top: 30%;
+            left: 60%;
+            margin-left: 40px
+}
+
+/****************************************/
+/* HEIZUNG */
+
+.heizungBG {
+  background-image: url(../img/erdgeschoss.png);
+  background-size: 90%;
+  background-origin: content;
+  background-position : center center;
+  background-repeat : no-repeat ;
+}
+
+.ziTemp {
+  width: 120px;
+  position: absolute;
+  z-index: 1;
+  background-color: #c5c5c5;
+  color: rgba(0,0,0,.5);
+  margin: 1%;
+  text-align: center;
+  -webkit-border-radius: 15px;
+  border-bottom: 1px solid #999;
+  padding: 8px; /*15*/
+}
+
+.istTemp {
+  background-color: #FF0000;
+  color: rgba(0,0,0,1);
+  font-size: 14px;
+  margin: 1%;
+  text-align: center;
+  /*-webkit-border-radius: 0px;*/
+  border: 2px solid #000000;
+  padding: 5px; /*15*/
+}
+
+.sollTemp {
+  background-color: #00FF00;
+  color: rgba(0,0,0,1);
+  font-size: 14px;
+  margin: 1%;
+  text-align: center;
+  /*-webkit-border-radius: 15px;*/
+  border: 2px solid #000000;
+  padding: 5px; /*15*/
+  line-height : 30px;
+}
+
+.ziTitel {
+    text-shadow: #fff 0 1px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: #fff 0 1px 0;
+}
+
+.ziTempWohnen {
+            top: 20%;
+            left: 10%;
+}
+.ziTempBad {
+            top: 20%;
+            left: 35%;
+}
+.ziTempKind1 {
+            top: 70%;
+            left: 35%;
+}
+.ziTempKind2 {
+            top: 70%;
+            left: 55%;
+}
+.ziTempSchlafen {
+            top: 50%;
+            left: 75%;
+}
+
+/****************************************/
+/* GESAMT*/
+
+.gesamttable
+{
+	border-spacing: 0px;
+	margin-left:auto; 
+	margin-right:auto;
+	WIDTH: 95%;  
+	BACKGROUND: #FFFFFF;
+}
+
+.gesamttd
+{
+    BORDER-TOP: #dbdbdd 1px solid;
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    BORDER-BOTTOM: #9a9fa5 1px solid;
+    PADDING-TOP: 5px;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    COLOR: #888888;
+}
+
+
+.gesamtcaption
+{
+    BORDER-TOP: #dbdbdd 1px solid;
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    BORDER-BOTTOM: #9a9fa5 1px solid;
+    PADDING-TOP: 5px;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    COLOR: #888888;
+    font-weight: bold;
+    text-align: left;
+}
+.gesamtvalue
+{
+    BORDER-TOP: #dbdbdd 1px solid;
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    BORDER-BOTTOM: #9a9fa5 1px solid;
+    PADDING-TOP: 5px;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    COLOR: #888888;
+    font-weight: bold;
+    text-align: right;
+}
+.gesamtbutton
+{
+    	WIDTH: 95%;
+    	font-size: 16px;
+}
+.center
+{
+	margin-left:auto; 
+	margin-right:auto;
+	text-align: center;
+}

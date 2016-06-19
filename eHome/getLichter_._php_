@@ -1,0 +1,27 @@
+<?
+include "FHZ_base.php"
+?>
+
+<?
+
+createFHZObjects( $address, $service_port, $objectNames, $objectTypes, $objectValues, $objectCnt);
+
+echo "<table class=gesamttable>";
+
+for ($i = 0; $i < $objectCnt - 1; $i++) {
+	if (($objectTypes[$i] == "EAGeraet") &&  ($objectNames[$i]!="Regen"))
+	{
+		echo "<tr>";
+		echo "<td class=gesamtcaption>";
+			echo $objectNames[$i];
+		echo "</td>";
+		echo "<td class=gesamtvalue>";
+			echo "<input type=button value=AN  onclick=setObjVal('" . $objectNames[$i] . "','AN') />";
+			echo "<input type=button value=AUS onclick=setObjVal('" . $objectNames[$i] . "','AUS') />";
+		echo "</td>";
+		echo "</tr>";
+	}		
+}
+echo "</table>";
+
+?>

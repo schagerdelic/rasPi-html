@@ -1,0 +1,121 @@
+<style>
+    dummy
+    {   
+    }
+    
+    BODY
+    {
+	scrollbar-3dlight-color: #222242;
+	scrollbar-arrow-color: #000080;
+	scrollbar-darkshadow-color: #202040;
+	scrollbar-face-color: #FF8040;
+	scrollbar-highlight-color: #DDAA80;
+	scrollbar-shadow-color: #AA4020;
+	scrollbar-track-color: #202040;
+    }
+    
+    H1
+    {
+        color: #FFFFFF;
+        font-family: Verdana,Arial;
+        font-size: 14pt;
+        font-weight: bold;
+    }
+    
+    H3
+    {
+        color: #CCCCCC;
+        font-family: Verdana,Arial;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-bottom: -0px
+    }
+
+    A:hover
+    {
+        color:#FF8040;
+    }
+
+    .Text
+    {
+        color: #CCCCCC;
+        font-family: Verdana,Arial;
+        font-size: 10pt;
+        font-weight: normal;
+    }
+
+    .SmallText
+    {
+        color: #CCCCCC;
+        font-family: Verdana,Arial;
+        font-size: 8pt;
+        font-weight: normal;
+    }
+
+    .CounterText
+    {
+        color: #000000;
+        font-family: Verdana,Arial;
+        font-size: 7pt;
+        font-weight: normal;
+    }
+
+    .NavBarHeader
+    {
+        color: #FF8040;
+        font-family: Verdana,Arial;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+    .NavBarLink
+    {
+        color: #FF8040;
+        font-family: Verdana,Arial;
+        font-size: 8pt;
+        font-weight: normal;
+        margin-bottom: -10px
+    }
+
+    .MenuBox
+    {
+        font-family: Verdana,Arial;
+        font-size: 7pt;
+        font-weight: bold;
+        text-align: center;
+    	color: #FFFF00;
+    }
+
+    .MenuLink
+    {
+        color: #000080;
+        font-family: Verdana,Arial;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+
+    .DarkBlueBG
+    {
+        background-color: #000060;
+    }
+    
+    .BlueBG
+    {
+        background-color: #000080;
+    }
+
+    .OrangeBG
+    {
+        background-color: #FF8040;
+    }
+    .WhiteBG
+    {
+        background-color: #FFFFFF;
+    }
+
+    .thumb 
+    {
+        border:0px #000000 solid;
+        margin-top:0px;
+    }
+</style>

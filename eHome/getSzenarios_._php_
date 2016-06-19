@@ -1,0 +1,23 @@
+<?
+include "FHZ_base.php";
+//recallSession();
+//startSession();
+
+createFHZObjects( $address, $service_port, $objectNames, $objectTypes, $objectValues, $objectCnt);
+
+for ($i = 0; $i < $objectCnt - 1; $i++) {
+	if ($objectTypes[$i] == "Knopf")
+	{
+		echo "<DIV class=center>";
+		echo "<input class=gesamtbutton type=button value=" . $objectNames[$i] . " onclick=RunMakro('" . $objectNames[$i] .  "',1) />";
+	
+		echo "</DIV>";
+	}		
+}
+
+
+?>
+
+
+
+<!--		<DIV class=center><input class=button type=button value=getStatusInfo onclick=getStatusInfo() /></DIV> -->
